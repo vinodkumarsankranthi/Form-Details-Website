@@ -1,0 +1,125 @@
+.Save-Button-Alignment-container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.Modal-screen-center-alignment {
+    width: 100%;
+    height: 100%;
+  }
+
+.modal-container{
+    height: 100%;
+    width: 100%;
+}
+
+.modal-inside-content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    max-width: 400px;/*width adustment of the Modal*/
+    transform: translate(-50%, -50%);
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .modal-close-iconButton-right-top-corner {
+    position: absolute !important;
+    top: -15px;
+    right: -13px;
+  }
+  
+  .modal-close-iconButton-right-top-corner-symbol {
+    background-color: red;
+    border-radius: 50%;
+    padding: 4px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .modal-header-and-switch-container {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+    align-items: baseline;
+    color: black;
+    padding: 15px;
+  }
+
+  .modal-header-name{
+    font-weight: bold;
+  }
+
+  .modal-swithc-name{
+    color: black;
+  }
+
+  .modal-switch-alignment{
+    margin-top: -3px;
+  }
+
+  .modal-grid-textfield-dropdown-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 15px;
+  }
+
+  .modal-autocomplete-option-add-button {
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .modal-add-additional-option-button{
+    color: white;
+  }
+  
+  .modal-course-name-add-button {
+    background-color: #9d9f9e;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    top: 14px;
+    right:5px;
+  }
+
+  .modal-autocomplete-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap:5px;
+  }
+  
+  .modal-autocomplete-container .MuiAutocomplete-root {
+    flex-grow: 1   ;
+  }
+
+  .add-option-modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+  }
+
+  .add-option-modal-textfield{
+    margin: 15px;
+  }
+  
+  

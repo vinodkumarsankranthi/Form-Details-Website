@@ -1,0 +1,183 @@
+/* Global styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* App container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: rgb(254, 255, 255);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  color: black;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.big-button {
+  background-color: #008CBA;
+  color: white;
+  font-size: 20px;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.big-button:hover {
+  background-color: #005f73;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 22px;
+  border-color: #1565c0;
+  box-shadow: 0 0 5px rgba(21, 101, 192, 0.5);
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 1px 1px 1px rgba(57, 178, 243, 0.966);
+  overflow-y: auto;
+  position: relative;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.close-modal-btn:hover {
+  color: red;
+}
+
+/* Responsive Design */
+
+/* Laptop View */
+@media (max-width: 1200px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .big-button {
+    font-size: 18px;
+    padding: 15px 30px;
+  }
+
+  .modal-container {
+    width: 90%;
+  }
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .big-button {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+
+  .modal-container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .close-modal-btn {
+    font-size: 25px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+  .header {
+    padding: 15px;
+  }
+
+  .header h1 {
+    font-size: 20px;
+  }
+
+  .main-content {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .big-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .modal-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .close-modal-btn {
+    font-size: 20px;
+  }
+}

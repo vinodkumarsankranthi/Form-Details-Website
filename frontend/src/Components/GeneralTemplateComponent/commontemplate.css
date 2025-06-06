@@ -1,0 +1,464 @@
+/*______________table header template___________________*/
+.common-page-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.table-header-template-top-bar-align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+
+
+.common-page-search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(216, 224, 240);
+  border-radius: 16px;
+  overflow: hidden;
+  max-width: 290px;
+  /* width: 90%; */
+  box-shadow: 0px 0px 1px gray;
+  /* padding-right: 2px; */
+}
+
+.common-page-search-container:hover,
+.common-page-search-container:focus-within,
+.common-page-search-container:active {
+  box-shadow: -1px 2px 2px gray;
+}
+
+.common-page-search-icon {
+  padding: 8px;
+}
+
+.common-page-search-icon svg {
+  font-size: 28px;
+  color: gray;
+}
+
+.search-input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.common-border-template {
+  border: 1px solid rgb(216, 224, 240);
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 1px gray;
+  font-size: 18;
+  font-weight: 600;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.common-border-template:hover {
+  background-color: #e9ecf3;
+}
+
+
+
+.common-filter-and-sort-responsive-manage{
+  color: #000000;
+}
+
+
+.common-page-avatar-and-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: nowrap;
+}
+
+.common-page-avatar-content-inner-container {
+  border: 1px solid rgb(216, 224, 240);
+  padding: 2px;
+  padding-left: 6px;
+  padding-right: 8px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 1px gray;
+  font-size: 18;
+  font-weight: 600;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.common-page-avatar {
+  background-color: green !important;
+  font-size: small !important;
+  height: fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.common-page-avata-rightside-text {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.common-filter-and-sort-responsive{
+  color: black;
+}
+
+
+.common-icon-designs {
+  font-size: 18px;
+  margin-top: -3px;
+  color: black;
+}
+
+.common-table-header-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: nowrap;
+}
+
+
+
+
+/*_________________Columns Context box css_____________________*/
+
+.column-button-modal-container{
+  padding: 12px !important;
+  text-align: center;
+  margin: 10px;
+}
+
+.columns-modal-heading{
+  font-weight: bold;
+}
+
+.button-and-selectall-checkbox {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between !important;
+  justify-items: center;
+  border-top: 1px solid gray;
+  margin: 10px;
+ 
+}
+
+.columns-container-heigh-and-width {
+  height: 300px !important;
+  overflow-y: scroll !important;
+  width: 250px !important;
+  padding: 0px 19px !important;
+  display: flex !important; /* Use flexbox */
+  flex-direction: column !important; /* Arrange items in a row */
+  flex-wrap: nowrap !important; /* Prevent items from wrapping */
+  align-items: start !important; /* Align items vertically center */
+  justify-content: flex-start !important; /* Align items at the start */
+}
+
+.column-button-search-container{
+  padding: 8px;
+  /* border-bottom: 1px solid gray; 
+  border-top: 1px solid gray; */
+  margin: 10px;
+  margin-top: -5px;
+}
+
+
+
+/*____________________Filter Button___________________*/
+
+.filter-button-footer-button-alignment {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  margin-left: 5px;
+  margin-right: 3px;
+}
+
+.Filter-header-name {
+  text-align: center;
+  font-weight: bold !important;
+}
+
+.Filter-Fields-alinment {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 10px;
+
+}
+
+.Filter-Field {
+  width: 100%;
+  margin-bottom: 8px;
+  color: black !important;
+}
+
+@media (min-width: 600px) {
+  .Filter-Fields-alinment {
+    flex-direction: row;
+    align-items: center;
+  }
+  .Filter-Field {
+    margin-bottom: 0;
+    margin-right: 8px;
+  }
+}
+
+.filter-button-footer-button-alignment {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+@media (min-width: 600px) {
+  .filter-button-footer-button-alignment {
+    flex-direction: row;
+  }
+}
+
+/* __________________Dynamic menu items______________ */
+
+.menuitemscolor {
+  color: black;
+}
+
+/* __________________end______________ */
+
+/*_____________________Table body template__________________*/
+
+.outer-wraper-table-body-template {
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 1px gray;
+  padding-bottom: 17px;
+  padding-top: 10px;
+  padding-left: 4px;
+}
+
+.table-wraper-table-body-template {
+  height: calc(100vh - 145px); /*for auto highr adjust to table*/
+  overflow-y: scroll;
+}
+
+.table-wraper-table-body-template::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.table-wraper-table-body-template::-webkit-scrollbar-track {
+  /* background: #f1f1f1; */
+  border-radius: 10px;
+}
+
+.table-wraper-table-body-template::-webkit-scrollbar-thumb {
+  background: #b7b8ba;
+  border-radius: 10px;
+}
+
+.table-wraper-table-body-template::-webkit-scrollbar-thumb:hover {
+  background: #626363;
+}
+
+.headercolumns-table-body-template {
+  padding: 8px;
+  position: sticky;
+  border-top-left-radius: 10px;
+  color: blue;
+  width: min-content;
+  text-align: justify;
+  text-overflow: ellipsis;
+ 
+
+  
+}
+
+.arrow-direction-up-table-body-template {
+  font-size: 17px !important;
+  padding: 1px;
+  margin-top: -3px;
+  margin-left: 3px;
+  cursor: pointer;
+  
+  color: #626363;
+}
+
+.arrow-direction-down-table-body-template {
+  transform: rotate(180deg) !important;
+  font-size: 17px !important;
+  padding: 1px;
+  margin-top: -3px;
+  margin-left: 3px;
+  cursor: pointer;
+  color: #626363;
+}
+
+.arrow-direction-down-table-body-template:hover,
+.arrow-direction-up-table-body-template:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.Data-not-avilable-showing-container-table-body-template {
+  top: 50%;
+  left: 45%;
+  font-style: italic;
+  position: absolute;
+}
+
+ .tablerows{
+  max-height: 30px;
+  
+}
+
+tr {
+  text-align: start;
+  font-family: "Roboto", sans-serif !important;
+  box-shadow: 0px 0px 0.5px gray;
+  width: 300px !important;
+}
+
+tr:hover {
+  background-color: #f2f4f8;
+}
+
+.tr-hover-active {
+  background-color: #f2f4f8;
+  height: 60px !important;
+  
+}
+.tbody{
+  max-height: 50px;
+}
+
+#td{
+  height: 20px;
+}
+.tablerows {
+  padding-left: 8px;
+  padding: 8px;
+  font-size: 16px;
+  color: black !important;
+  max-height: 50px !important;
+  
+}
+
+.moreiconalign-table-template-body {
+  margin-left: 10px;
+}
+
+.moreiconbutton-background-alignment-table-template-body {
+  margin-top: -3px;
+  margin-right: 10px !important;
+  background-color: #fffdfd !important;
+}
+
+.moreiconbutton-background-alignment-table-template-body:hover,
+.moreiconbutton-background-alignment-table-template-body.active {
+  background-color: rgb(235, 235, 241) !important;
+}
+
+.more-icon-color-and-pointer-table-template-body {
+  color: blue;
+  cursor: pointer;
+}
+
+.headerContent-table-template-body {
+  display: flex;
+  align-items: center; /* Vertically centers the items */
+}
+
+.select-dropdown-border-remove {
+  border: none;
+  color: #000000;
+  font-size: 16px; 
+  border-radius: 4px;
+  outline: none;
+  box-shadow: none;
+  width: 75px;
+  margin-left: -8px;
+}
+
+
+.select-dropdown-border-remove .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.select-dropdown-options {
+  background-color: #ffffff;
+  color: #333;
+  font-size: 16px;
+}
+
+
+
+/* Ensure the select dropdown cell inherits the row's hover background color */
+tr:hover .select-dropdown-border-remove {
+  background-color: inherit;
+}
+
+/* Optionally, if you want the select dropdown itself to change color on hover */
+.select-dropdown-border-remove select:hover {
+  background-color: #f2f4f8;
+}
+
+/*_______________________end_____________________*/
+
+/*______________________common_________________*/
+.menuitems-text-color{
+  color: rgb(0, 0, 0) !important;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+  border-radius: 10px !important;
+
+}
+
+/*__________________end_______________________*/
+
+/* ______________Media query for baed on the Screen some element adjust_____________ */
+@media screen and (max-width:990px ) {
+
+  .common-filter-and-sort-responsive{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .common-page-search-container{
+    max-width: 790px;
+    width: 100%;
+  }
+  .table-wraper-table-body-template {
+    height: calc(100vh - 192px); /*for auto highr adjust to table*/
+   
+  }
+
+}
+
+@media screen and (max-width: 390px) {
+
+  .common-filter-and-sort-responsive-manage{
+display: none;
+  }
+
+}
+
+/*__________________________________end____________________________________*/
+
+

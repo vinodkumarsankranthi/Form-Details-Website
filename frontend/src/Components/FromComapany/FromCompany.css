@@ -1,0 +1,468 @@
+/*----------from company modal box template---------*/
+.from-company-template-modal {
+  width: 100%;
+  height: 100vh;
+}
+
+.from-company-template-modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  height: 100vh;
+}
+
+.from-company-template-container-with-content {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: auto;
+  min-width: 280px;
+  position: relative;
+}
+
+.from-company-template-close-button {
+  position: absolute !important;
+  top: -15px;
+  right: -13px;
+}
+
+.from-company-template-close-button-x {
+  background-color: red;
+  border-radius: 50%;
+  padding: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.from-company-template-header {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.from-company-template-model-icon {
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  gap: 30px;
+}
+
+.from-company-template-add-course-icon:hover {
+  color: blue;
+  font-weight: 600;
+}
+
+.from-company-template-add-course-icon:hover .from-company-template-addboxixon-style {
+  color: blue;
+  font-weight: 600;
+  border: 0.5px solid blue;
+}
+
+.from-company-template-addboxixon-style {
+  box-shadow: 0px 0px 1px blue;
+  border-radius: 2px;
+  margin: 3px;
+  padding: 4px;
+  color: #1976d2;
+}
+
+/* --------------------------code---------------------------*/
+
+/* Logo Field */
+.from-company-logo-image {
+  width: 115px !important;
+  min-height: 110px;
+  max-height: 110px;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid gray;
+  margin-left: 0 !important;
+}
+
+.from-company-add-logo-image {
+  width: 200px;
+  color: blue;
+  cursor: pointer;
+  text-align: left;
+
+}
+
+.from-company-profile-image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.from-company-profile-image-container > * {
+  margin: auto !important;
+  text-align: center;
+}
+
+.from-company-profile-group-from-company-cpLogo {
+  align-items: center;
+}
+
+/* Company Container */
+.from-company-creat-Company0-container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: none !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header Buttons */
+.from-company-Company0-header-buttons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.from-company-Company0-header-buttons h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.buttonicons-vin {
+  font-size: 17px !important;
+  margin-right: 5px;
+  cursor: pointer;
+  margin-top: -2px;
+}
+
+.from-company-Company0-header-buttons .MuiButton-root {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: 88px;
+}
+
+/* Modal Content */
+.from-company-modal-content {
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Scroll Container */
+.from-company-scroll-container {
+  padding: 10px;
+  width: auto;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  overflow: auto;
+  max-height: calc(100vh - 120px);
+  height: 95%;
+}
+
+.from-company-scroll-container::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+.from-company-scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.from-company-scroll-container::-webkit-scrollbar-thumb {
+  background: #b7b8ba;
+  border-radius: 5px;
+}
+
+.from-company-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #626363;
+}
+
+/* Flexbox Utilities */
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  justify-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 49%;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  flex: 1;
+  min-width: 200px;
+}
+
+.from-company-phone-number-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.from-company-react-tel-input input {
+  height: 50px !important;
+  font-size: 16px !important;
+  padding: 10px;
+}
+
+/*---------------------------logo edit and delete--------------------*/
+.from-company-profile-image-container {
+  position: relative;
+  width: 100%;  
+  height: 100%; 
+}
+
+.from-company-logo-image {
+    width: 115px !important;
+    height:115px !important;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid gray;
+    margin-left: 0 !important;
+}
+
+.icon-container {
+  position: absolute;
+  top: 50%;        
+  left: 50%;       
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.icon-container.visible {
+  opacity: 1;
+}
+
+.icon-add-icon {
+  color: blue;
+  padding: 5px; 
+  background-color: rgba(255, 255, 255, 0.482);
+  border-radius: 50%;
+  width: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-add-icon:hover {
+  background-color: blue; 
+  color: white; 
+  transform: scale(1.1); 
+}
+
+.icon-edit-icon {
+  color: blue;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.482);
+  border-radius: 50%;
+  width: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-edit-icon:hover {
+  background-color: green; 
+  color: white; 
+  transform: scale(1.1); 
+}
+
+.icon-delete-icon {
+  color: red;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.482);
+  border-radius: 50%;
+  width: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-delete-icon:hover {
+  background-color: red; 
+  color: white; 
+  transform: scale(1.1); 
+}
+
+.template-modal{
+  width: 100%;
+  height: 100vh;
+}
+.template-modal-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  height: 100vh;
+}
+.template-container-with-content{
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: auto;
+  min-width: 280px;
+  position: relative;
+  
+}
+.template-close-button{
+  position: absolute !important;
+  top: -15px;
+  right: -13px;
+}
+.template-close-button-x{
+  background-color: red;
+  border-radius: 50%;
+  padding: 4px;
+  color: white;
+  font-weight: bold;
+}
+.modal-image {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 4px;
+  object-fit: fill; 
+  size: 250px;
+  align-items: center;
+}
+.template-model-icon{
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  gap: 30px;
+}
+/*------------------------------------------ Media Queries for Responsive Design -------------------------------*/
+
+/* For devices smaller than 768px (tablets and phones) */
+@media screen and (max-width: 768px) {
+  .flex-row {
+    flex-direction: column; /* Stack the fields vertically on smaller screens */
+    gap: 10px;
+  }
+
+  .from-company-logo-image {
+    width: 90px !important;
+    min-height: 90px;
+    max-height: 90px;
+  }
+
+  .from-company-profile-image-container {
+    padding-left: 0; /* Remove extra padding on smaller screens */
+  }
+
+  .from-company-profile-image-container > * {
+    margin-bottom: 10px;
+  }
+
+  .from-company-creat-Company0-container {
+    width: 90%; /* Ensure the container width adjusts to the screen */
+    padding: 20px; /* Add some spacing for smaller devices */
+  }
+
+  .from-company-scroll-container {
+    max-height: calc(100vh - 200px); /* Adjust max-height for smaller screens */
+  }
+
+  .from-company-modal-content {
+    margin: 10px; /* Reduce margins for mobile */
+    padding: 15px;
+  }
+
+  .from-company-Company0-header-buttons h4 {
+    font-size: 20px;
+  }
+
+  .icon-add-icon,
+  .icon-edit-icon,
+  .icon-delete-icon {
+    font-size: 10px; 
+    width: 30px; 
+    height: 30px;
+  }
+
+
+}
+
+/* For very small devices like phones */
+@media screen and (max-width: 480px) {
+  .from-company-logo-image {
+    width: 75px !important;
+    min-height: 75px;
+    max-height: 75px;
+  }
+
+  .from-company-add-logo-image {
+    width: 150px;
+    font-size: 14px;
+    padding-left: 8px;
+  }
+
+  .from-company-creat-Company0-container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .flex-item {
+    min-width: 100%;
+    flex: 0;
+  }
+
+  .from-company-profile-image-container {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .form-row {
+    margin-bottom: 15px;
+  }
+
+  .from-company-Company0-header-buttons h4 {
+    font-size: 18px;
+  }
+
+  .icon-add-icon,
+  .icon-edit-icon,
+  .icon-delete-icon {
+    font-size: 10px; 
+    width: 25px; 
+    height: 25px;
+  }
+}

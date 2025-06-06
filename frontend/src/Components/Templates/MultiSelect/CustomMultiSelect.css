@@ -1,0 +1,156 @@
+.pmModalAddKeyItemPlusBtn {
+  background-color: rgb(187, 179, 179);
+  border-radius: 50%;
+  color: rgb(31, 159, 31);
+  font-size: 20px;
+  /* position: absolute !important; */
+
+  right: 1px !important;
+}
+.endAdornmentStyle {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+.plsIcon {
+  background-color: rgb(28, 166, 60) !important;
+  border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  height: 22px;
+  width: 22px;
+  z-index: 1000;
+  position: absolute !important;
+  right: 10px;
+  top: 23px;
+}
+
+.chip-background-color-and-alignment {
+  background-color: #1d88fa !important;
+  color: white !important;
+}
+
+.chip-background-color-and-alignment-delete {
+  background-color: #ffffff !important;
+  color: #1d88fa !important;
+  font-size: 20px !important;
+  font-weight: bold;
+  padding: 4px;
+  /* border: 1px solid rgb(210, 210, 210); */
+  border-radius: 50%;
+}
+
+.AddPlusContainer {
+  margin-right: -45px;
+}
+.XKeyContainerNull {
+  margin-right: -5px !important;
+  background-color: rgba(239, 226, 205, 0.911);
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 22px;
+  padding: 6px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.XKeyContainer-icon {
+  font-size: 15px !important;
+  color: white;
+}
+.XKeyContainer {
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgb(255, 4, 4) !important;
+  color: white;
+  height: 22px;
+  width: 22px;
+  z-index: 1000;
+  position: absolute !important;
+  right: 10px;
+  top: 23px;
+}
+
+.option {
+  background-color: white;
+  color: black;
+}
+
+.option[data-focus="true"] {
+  background-color: white;
+}
+
+.option[aria-selected="true"] {
+  background-color: darkyellow;
+}
+
+.chipContainer {
+  padding: 3px !important;
+}
+.deleteIcon {
+  background-color: white;
+  color: black !important;
+  border-radius: 50%;
+  border: 2px solid rgb(169, 98, 98);
+}
+
+.deleteIcon:hover {
+  background-color: rgb(231, 107, 107) !important;
+}
+.AddBtnName {
+  color: black;
+  font-weight: bold;
+}
+
+.customAutocomplete {
+  display: flex;
+  flex-direction: column;
+}
+
+.customInputContainer {
+  margin-top: 8px; /* Adjust spacing as needed */
+}
+
+.flexInputAdornment {
+  display: flex;
+  align-items: center;
+}
+
+/* ________scroll inside content__________ */
+.autocomplete-dropdown {
+  max-height: 200px; /* Set the maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.customSelectInputBox {
+  /* sx={{maxHeight:'30vh', overflow:'scroll',}} */
+  max-height: 30vh;
+  overflow-y: scroll;
+}
+
+.customSelectInputBox::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+  /* right: -50 !important; */
+  position: relative;
+  margin-left: -5px;
+}
+
+.customSelectInputBox::-webkit-scrollbar-track {
+  /* background: #f1f1f1; */
+  /* border: 2px solid rgb(206, 206, 221); */
+  border-left: none !important;
+  padding: 4px;
+  border-right: 1px solid rgb(217, 212, 212);
+  border-bottom: 1px solid rgb(217, 212, 212);
+  border-top: 1px solid rgb(217, 212, 212);
+}
+
+.customSelectInputBox::-webkit-scrollbar-thumb {
+  background: blue; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Round the corners of the scrollbar thumb */
+}
+
+.customSelectInputBox::-webkit-scrollbar-thumb:hover {
+  background: blue; /* Color of the scrollbar thumb when hovered */
+}
